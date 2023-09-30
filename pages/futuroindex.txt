@@ -1,0 +1,12 @@
+import React from "react";
+
+function Home() {
+  return (
+    <div>
+      <h1>Minha Página Inicial</h1>
+      {/* Outro conteúdo da página */}
+    </div>
+  );
+}
+
+export default Home;
