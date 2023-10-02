@@ -339,7 +339,8 @@ h6 {
   height: 100%;
 }
 .feature {
-  background-color: #333237;
+  background: #69d2e7;
+  background-color: linear-gradient(to left, #add4d3, #69d2e7);
 }
 .single-feature {
   margin-bottom: 80px;
@@ -673,4 +674,80 @@ input {
   .footer-copy p {
     font-size: 10px;
   }
+}
+#pricing {
+  background: linear-gradient(to left, #add4d3, #69d2e7);
+}
+.pricing-box {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  border: 1px solid #f8f9fb;
+  border-radius: 6px;
+  box-shadow: 0 0 1px 0 rgba(0, 12, 32, 0.04),
+    0 10px 16px 0 rgba(10, 31, 68, 0.06);
+  margin-bottom: 20px;
+  margin-top: 120px;
+}
+
+.pricing-box h3 {
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  color: #0095f7;
+}
+
+.pricing-box h6 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #3a3f52;
+  margin-bottom: 0px;
+}
+
+.pricing-box p {
+  font-size: 17px;
+  margin-top: 15px;
+  padding: 0px;
+}
+
+.pricing-box ul {
+  padding-left: 10px;
+}
+
+.pricing-box li {
+  font-size: 14px;
+  font-weight: 300;
+  color: #8da2b5;
+  letter-spacing: 0.1em;
+}
+
+.pricing-box span {
+  font-weight: 500;
+  color: #0095f7;
+}
+
+.pricing-box small {
+  color: #8da2b5;
+  letter-spacing: 0.2em;
+}
+
+.pricing-box i {
+  font-size: 20px;
+  color: #0095f7;
+  margin-right: 10px;
+}
+
+.pricing-box .demo {
+  color: #6772e5 !important;
+}
+.single-feature {
+}
+.single-feature h5 {
+  font-size: 16px;
+}
+.media-right-margin {
+  margin-right: 25px;
+}
+.single-feature p {
+  font-size: 13px;
+  color: #ffffff;
 }
