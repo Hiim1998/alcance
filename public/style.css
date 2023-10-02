@@ -213,7 +213,7 @@ h6 {
 .svg-hero {
   width: 100%;
   height: auto;
-  margin-bottom: -125px;
+  margin-bottom: -126px;
 }
 .banner-text {
   padding-right: 80px;
@@ -615,6 +615,11 @@ input {
   #contact_form {
     margin-bottom: 20px;
   }
+  .svg-hero {
+    width: 100%;
+    height: auto;
+    margin-bottom: -126px;
+  }
 }
 @media all and (max-width: 768px) {
   .nav-scroll .navbar-brand img,
@@ -706,5 +711,10 @@ input {
   }
   .footer-copy p {
     font-size: 10px;
+  }
+  .svg-hero {
+    width: 100%;
+    height: auto;
+    margin-bottom: -126px;
   }
 }
